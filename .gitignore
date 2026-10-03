@@ -1,0 +1,28 @@
+# Entornos y cache de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Credenciales y configuracion local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+browser_profiles/
+posiciones_firefox.json
+
+# Facturas, entradas y resultados locales
+data/
+logs/
+debug/
+tmp/
+tmp*/
+
+# Archivos del editor y del sistema
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
